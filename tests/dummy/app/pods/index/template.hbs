@@ -26,8 +26,8 @@ ember install ember-modal-dialog</pre>
     {{/ted-modal-body}}
 
     {{#ted-modal-footer}}
-      <a href="#" {{action 'toggleIsShowingModal'}} class='btn btn-link'>Cancel</a>
-      <a href="#" {{action 'presentStage'}} class='btn btn-primary pull-right'>Present stage</a>
+      <button {{action 'toggleIsShowingModal'}} class='btn btn-link'>Cancel</button>
+      <button {{action 'presentStage'}} class='btn btn-primary pull-right'>Present stage</button>
     {{/ted-modal-footer}}
   {{/ted-modal}}
 {{/if}}
